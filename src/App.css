@@ -1,3 +1,52 @@
-nav{
-    background: #212020;
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #232f3e;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background-color: #febd69;
+  color: #111;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* Estilos adicionales para resaltar el enlace activo */
+.nav-links a:hover {
+  text-decoration: underline;
 }
