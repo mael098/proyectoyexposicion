@@ -1,11 +1,12 @@
 import "./App.css"
+import Logo from "../public/580b57fcd9996e24bc43c518.png"
 
 function App() {
   return (
     <>
      <nav>
       <div className="logo">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.klipartz.com%2Fes%2Fsticker-png-yjbou&psig=AOvVaw2gVGoiQnLvDkC7hrxgSZR8&ust=1700718048417000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODvnsvy1oIDFQAAAAAdAAAAABAJ" alt="" />
+        <img src={Logo} alt="" />
       </div>
       <div className="search-bar">
         <input type="text" />
