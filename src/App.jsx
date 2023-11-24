@@ -8,6 +8,17 @@ function App() {
       <div className="logo">
         <img src={Logo} alt="" />
       </div>
+      <div className="GPS-ubicasion">
+        <div className="GPS">
+          <i className="fas fa-map-marker-alt"></i>
+        </div>
+        <div className="ubicasion">
+          <img src="" alt="" />
+          <p>Entregar en tampico</p>
+          <p>atualizar ubicasion</p>
+        </div>
+
+      </div>
       <div className="search-bar">
         <input type="text" />
         <button type="button">Buscar</button>
@@ -18,6 +29,7 @@ function App() {
         <a href="#">Vender</a>
         <a href="#">Ayuda</a>
       </div>
+      
     </nav>
 
       <section></section>
